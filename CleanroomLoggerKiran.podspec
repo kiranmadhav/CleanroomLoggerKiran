@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'Kiran Madhav' => 'kiran.madhav05@gmail.com' }
   s.source           = { :git => 'https://github.com/kiranmadhav/CleanroomLoggerKiran.git', :branch => podsupport }
-  s.ios.deployment_target = '11.0'
+  # s.ios.deployment_target = '11.0'
+  s.platform = :ios, '11.0'
   s.swift_version = '5.0'
   s.source_files = 'Sources/**/*'
 end
